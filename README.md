@@ -43,25 +43,25 @@ gem install bundler
 
 Abre tu terminal (o Git Bash en Windows) y ejecuta:
 
-\`\`\`bash
+```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
-\`\`\`
+```
 
 > 🔁 Si estás empezando desde cero, puedes clonar directamente el tema Minimal Mistakes:
 
-\`\`\`bash
+```bash
 git clone https://github.com/mmistakes/minimal-mistakes.git mi-sitio
 cd mi-sitio
-\`\`\`
+```
 
 ### Paso 2: Instalar dependencias
 
 Ejecuta este comando para instalar Jekyll y los plugins necesarios:
 
-\`\`\`bash
+```bash
 bundle install
-\`\`\`
+```
 
 > ⚠️ Si ves errores, prueba con \`bundle config set --local path 'vendor/bundle'\` antes de \`bundle install\`.
 
@@ -71,9 +71,9 @@ bundle install
 
 Para ver tu sitio en tu navegador, ejecuta:
 
-\`\`\`bash
+```bash
 bundle exec jekyll serve
-\`\`\`
+```
 
 Luego abre tu navegador y visita:
 
@@ -87,7 +87,7 @@ Luego abre tu navegador y visita:
 
 Aquí te explico los archivos y carpetas más importantes:
 
-\`\`\`
+```
   mi-sitio/
   ├── _config.yml          ← Configuración principal del sitio (título, autor, redes, etc.)
   ├── _posts/              ← Aquí van tus entradas de blog (archivos .md)
@@ -95,7 +95,7 @@ Aquí te explico los archivos y carpetas más importantes:
   ├── assets/              ← Imágenes, CSS, JS personalizados
   ├── Gemfile              ← Lista de dependencias (plugins, temas)
   └── index.html           ← Página de inicio
-\`\`\`
+```
 
 ---
 
@@ -107,7 +107,7 @@ Este es el **corazón de tu sitio**. Abrelo con cualquier editor de texto (VS Co
 
 Ejemplo básico:
 
-\`\`\`yaml
+```yaml
 title: Mi Blog Personal
 name: Tu Nombre
 description: >- # esto permite saltos de línea
@@ -120,7 +120,7 @@ author:
   name: Tu Nombre
   bio: "Apasionado por el café y el código."
   avatar: "/assets/images/avatar.jpg" # coloca tu foto aquí
-\`\`\`
+```
 
 > 💡 Cambia \`url\` por tu dominio real cuando lo publiques (ej: \`https://minombre.com\`).
 
@@ -130,15 +130,15 @@ author:
 
 Ve a la carpeta \`_posts/\` y crea un archivo con este formato:
 
-\`\`\`
+```
 YYYY-MM-DD-titulo-de-mi-entrada.md
-\`\`\`
+```
 
 Ejemplo: \`2025-04-05-mi-primer-post.md\`
 
 Contenido del archivo:
 
-\`\`\`markdown
+```markdown
 ---
 title: "Mi primer post en Jekyll"
 date: 2025-04-05
@@ -157,7 +157,7 @@ Es muy fácil escribir en **Markdown**. Puedes usar:
 - Imágenes
 
 ¡Y mucho más!
-\`\`\`
+```
 
 > 📌 Guarda el archivo y refresca tu navegador. ¡Tu post aparecerá automáticamente!
 
@@ -167,7 +167,7 @@ Es muy fácil escribir en **Markdown**. Puedes usar:
 
 Crea un archivo en \`_pages/\`, por ejemplo: \`about.md\`
 
-\`\`\`markdown
+```markdown
 ---
 title: "Sobre mí"
 permalink: /about/
@@ -176,7 +176,7 @@ permalink: /about/
 ¡Hola! Soy [Tu Nombre], y me encanta...
 
 [...tu contenido aquí...]
-\`\`\`
+```
 
 > 🔗 La página estará disponible en \`http://localhost:4000/about/\`
 
@@ -196,7 +196,7 @@ Todo se configura en \`_config.yml\` o en archivos dentro de \`_data/\`.
 
 Ejemplo: agregar redes sociales
 
-\`\`\`yaml
+```yaml
 # _config.yml
 author:
   links:
@@ -206,7 +206,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/tuusuario"
-\`\`\`
+```
 
 > 🖼️ Los íconos usan [Font Awesome](https://fontawesome.com/icons). Puedes buscar el nombre del ícono que quieras.
 
@@ -219,19 +219,19 @@ author:
 1. Crea un repositorio en GitHub llamado \`tu-usuario.github.io\`
 2. Sube tu proyecto:
 
-\`\`\`bash
+```bash
 git remote set-url origin https://github.com/tu-usuario/tu-usuario.github.io.git
 git add .
 git commit -m "Mi primer sitio Jekyll"
 git push -u origin main
-\`\`\`
+```
 
 3. En \`_config.yml\`, asegúrate de tener:
 
-\`\`\`yaml
+```yaml
 url: "https://tu-usuario.github.io"
 baseurl: ""
-\`\`\`
+```
 
 4. Ve a **Settings > Pages** en tu repo de GitHub y selecciona la rama \`main\` (o \`gh-pages\` si usas esa).
 
@@ -260,30 +260,30 @@ No. Solo necesitas saber editar archivos de texto y usar comandos básicos en la
 
 Es un archivo de texto con formato **Markdown**. Es super fácil:
 
-\`\`\`markdown
+```markdown
 # Título
 ## Subtítulo
 **negrita**
 *cursiva*
 - lista
 [enlace](https://ejemplo.com)
-\`\`\`
+```
 
 ### ❓ ¿Puedo usar imágenes?
 
 ¡Sí! Guárdalas en \`assets/images/\` y luego en tus posts:
 
-\`\`\`markdown
+```markdown
 ![Texto alternativo](/assets/images/mi-imagen.jpg)
-\`\`\`
+```
 
 ### ❓ ¿Y si quiero cambiar el tema de colores?
 
 Edita el archivo \`_sass/minimal-mistakes/_variables.scss\` o usa una skin predefinida en \`_config.yml\`:
 
-\`\`\`yaml
+```yaml
 minimal_mistakes_skin: "contrast" # o "default", "dark", "dirt", "mint", etc.
-\`\`\`
+```
 
 ---
 
