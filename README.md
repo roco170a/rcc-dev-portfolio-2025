@@ -1,4 +1,4 @@
-# 📄 README.md — Proyecto Jekyll con Tema Minimal Mistakes
+# 📄 Jekyll + Tema Minimal Mistakes
 
 > ✅ **Para principiantes en Ruby, Jekyll y Minimal Mistakes**  
 > 🌐 Sitio web personal, blog o portafolio estático  
