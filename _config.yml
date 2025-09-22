@@ -12,7 +12,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Aprendizaje TI"
+title                    : "Flash Code Lab Blog"
 title_separator          : "-"
 subtitle                 : "Sitio de soporte y aprendizaje"
 name                     : "IT Support Learning"
