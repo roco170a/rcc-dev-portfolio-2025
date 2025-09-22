@@ -88,13 +88,13 @@ Luego abre tu navegador y visita:
 Aquí te explico los archivos y carpetas más importantes:
 
 \`\`\`
-mi-sitio/
-├── _config.yml          ← Configuración principal del sitio (título, autor, redes, etc.)
-├── _posts/              ← Aquí van tus entradas de blog (archivos .md)
-├── _pages/              ← Páginas adicionales (sobre mí, contacto, etc.)
-├── assets/              ← Imágenes, CSS, JS personalizados
-├── Gemfile              ← Lista de dependencias (plugins, temas)
-└── index.html           ← Página de inicio
+  mi-sitio/
+  ├── _config.yml          ← Configuración principal del sitio (título, autor, redes, etc.)
+  ├── _posts/              ← Aquí van tus entradas de blog (archivos .md)
+  ├── _pages/              ← Páginas adicionales (sobre mí, contacto, etc.)
+  ├── assets/              ← Imágenes, CSS, JS personalizados
+  ├── Gemfile              ← Lista de dependencias (plugins, temas)
+  └── index.html           ← Página de inicio
 \`\`\`
 
 ---
