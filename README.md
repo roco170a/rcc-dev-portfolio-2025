@@ -31,9 +31,9 @@ Jekyll está hecho en Ruby.
 ### 3. **Bundler** (gestor de dependencias de Ruby)  
 Se instala con este comando en la terminal:
 
-\`\`\`bash
+```bash
 gem install bundler
-\`\`\`
+```
 
 ---
 
