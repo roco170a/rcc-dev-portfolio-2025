@@ -12,6 +12,76 @@ main:
     url: /year-archive/
 
 
+certificaciones:
+  - title: "Domains"
+    children:
+      - title: "1. SDLC Automation"
+        url: /cert001/sdlc-cicd-pipelines/
+      - title: "2. Configuration Management and IaC"
+        url: /child-page-a2/
+      - title: "3. Resilient Cloud Solutions"
+        url: /child-page-a3/
+      - title: "4. Monitoring and Logging"
+        url: /child-page-a4/  
+      - title: "5. Incident and Event Response"
+        url: /child-page-a5/
+      - title: "6. Security and Compliance"
+        url: /child-page-a6/
+      
+
+cert001:
+  - title: SDLC Automation  
+    children:
+      - title: "Implement CI/CD pipelines"
+        url: /cert001/sdlc-cicd-pipelines/
+      - title: "Integrate automated testing into CI/CD pipelines"
+        url: /cert001/sdlc-automated-testing/
+      - title: "Build and manage artifacts"
+        url: /cert001/sdlc-artifacts/
+      - title: "Implement deployment strategies"
+        url: /cert001/sdlc-deployment-strategies/
+  - title: Configuration Management and IaC
+    children:
+      - title: "Define cloud infrastructure and reusable components"
+        url: /cert001/configuration-management/define-infrastructure/
+      - title: "Deploy automation for multi-account or multi-Region environments"
+        url: /cert001/configuration-management/multi-account-automation/
+      - title: "Design and build automated solutions for complex tasks"
+        url: /cert001/configuration-management/automated-solutions/
+  - title: Resilient Cloud Solutions
+    children:
+      - title: "Implement highly available solutions"
+        url: /cert001/resilient-cloud-solutions/high-availability/
+      - title: "Implement scalable solutions"
+        url: /cert001/resilient-cloud-solutions/scalability/
+      - title: "Implement automated recovery processes"
+        url: /cert001/resilient-cloud-solutions/automated-recovery/
+  - title: Monitoring and Logging
+    children:
+      - title: "Configure collection, aggregation, and storage of logs and metrics"
+        url: /cert001/monitoring-logging/configure-logs-metrics/
+      - title: "Audit, monitor, and analyze logs and metrics"
+        url: /cert001/monitoring-logging/audit-monitor-analyze/
+      - title: "Automate monitoring and event management"
+        url: /cert001/monitoring-logging/automate-monitoring/
+  - title: Incident and Event Response
+    children:
+      - title: "Manage event sources and notifications"
+        url: /cert001/incident-response/manage-event-sources/
+      - title: "Implement configuration changes in response to events"
+        url: /cert001/incident-response/configuration-changes/
+      - title: "Troubleshoot system and application failures"
+        url: /cert001/incident-response/troubleshooting/
+  - title: Security and Compliance
+    children:
+      - title: "Implement identity and access management at scale"
+        url: /cert001/security-compliance/identity-access-management/
+      - title: "Apply automation for security controls and data protection"
+        url: /cert001/security-compliance/automation-security-controls/
+      - title: "Implement security monitoring and auditing solutions"
+        url: /cert001/security-compliance/security-monitoring/
+
+
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"

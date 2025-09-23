@@ -5,8 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# theme                    : "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+theme                    : "minimal-mistakes-jekyll"
+# remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -258,9 +258,12 @@ collections:
 #  recipes:
 #    output: true
 #    permalink: /:collection/:path/
-#  pets:
-#    output: true
-#    permalink: /:collection/:path/
+  certificaciones:
+    output: true
+    permalink: /:collection/:path/
+  cert001:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -293,14 +296,33 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _pets
+  # _certificaciones
   - scope:
       path: ""
-      type: pets
+      type: certificaciones
+      label: "Domains"
     values:
       layout: single
-      author_profile: true
-      share: true
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "certificaciones"
+  # _cert001
+  - scope:
+      path: ""
+      type: cert001
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "cert001"
   # _portfolio
   - scope:
       path: ""
